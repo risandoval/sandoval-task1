@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from 'react'; 
 
 function FilterProductTable ({ products }) {
     const [filterText, setFilterText] = useState('');
